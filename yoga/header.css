@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+   
+  }
+  
+  
+
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+    --bs-navbar-margin-y: 0rem;
+    background-color: #6D5D6E;
+    
+   
+}
+
+.navbar a {
+    text-decoration: none;
+}
+h2.logo {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+h2.logo strong {
+    font-size: 35px;
+    color: #EDF828;
+    font-weight: 600;
+}
+h2.center-logo {
+    margin: 0 25px;
+}
+#navbarSupportedContent {
+    justify-content: space-between;
+}
+ul.navbar-nav li.nav-item {
+    margin-right: 25px;
+}
+ul.navbar-nav li.nav-item:last-child {
+    margin-right: 0;
+}
+ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #EDF828;
+    border-bottom:#EDF828;
+} */
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #f1c40f;
+    border-bottom:3px solid #f1c40f; 
+}
+.navbar-nav .nav-item a.nav-link.active {
+  border-bottom: 3px solid #f1c40f; /* Change color as desired */
+}
+  #social-icons {
+    display: none;
+  }
+  .message{
+    color:white;
+  }
+  
+  @media (max-width: 767px) {
+    #social-icons {
+      display: flex;
+      justify-content: center;
+      background-color: black;
+      padding: 22px auto;
+     
+    }
+    .social-icons a:hover i {
+      transform: scale(1.06);
+    }
+    .social-icons .fab {
+      color: white;
+    }
+  }
+  
+  
